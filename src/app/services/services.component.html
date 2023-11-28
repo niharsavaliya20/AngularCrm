@@ -1,0 +1,18 @@
+<div class="section-title-wrapper">
+    <h2 class="h2-title h2-title_reviews" style="margin-top: 60px;">
+        Choose your Destiny </h2>
+    <span class="title__line"></span>
+</div>
+
+<figure class="grid cols-3 gap m-5 text-center ">
+    <div *ngFor="let service of services">
+
+        <div class="card service-bg">
+            <div class="card-body">
+                <h5 class="card-title p-3">{{service.title}}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">{{service.subtitle}}</h6>
+                <p class="card-text">{{service.description}}</p>
+            </div>
+        </div>
+    </div>
+</figure>

@@ -1,0 +1,25 @@
+<div class="section-title-wrapper">
+  <h2 class="h2-title h2-title_faq">
+    FAQ </h2>
+  <span class="title__line"></span>
+</div>
+
+<div class="container p-2 m-bottom">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item" *ngFor="let faq of faqs; let i = index">
+      <h2 class="accordion-header" [id]="'heading'+i">
+
+        <button class="accordion-button collapsed faq-size" type="button" data-bs-toggle="collapse"
+          [attr.data-bs-target]="'#collapse'+i" aria-expanded="true" [attr.aria-controls]="'collapse'+i">
+          {{faq.question}}
+        </button>
+      </h2>
+      <div [id]="'collapse'+i" class="accordion-collapse collapse" [attr.aria-labelledby]="'heading'+i"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          {{faq.answer}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

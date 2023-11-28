@@ -1,0 +1,35 @@
+<div>
+
+  <!-- <section>
+    <div class="img-fluid">
+      <img src="" class="img-fluid border-black w-100 h-10">
+     </div>
+  </section> -->
+
+  <section class="about" id="about-us">
+    <app-about-us></app-about-us>
+  </section>
+
+  <div style="background-color: black;">
+    <section class="service" id="service">
+      <app-services [services]="services"></app-services> <!--parents to child-->
+    </section>
+
+    <section class="reviews" id="reviews">
+      <app-slider [reviews]="reviews"></app-slider>
+    </section>
+  </div>
+
+  <section class="faq" id="faq">
+    <app-accordion [faqs]="faqs"></app-accordion>
+  </section>
+
+  <section class="faq" id="contact">
+    <app-contact></app-contact>
+  </section>
+
+  <section>
+    <app-footer></app-footer>
+  </section>
+
+</div>

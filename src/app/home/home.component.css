@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+
+/* for reviews */
+
+.reviews {
+
+  /* background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsApAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAYEAEBAQEBAAAAAAAAAAAAAAAAAUERIf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AxEEAAAAAVFAAFEVBFEUBUEVUABUFRQEEAUAAABUIqAoCAAAAICKoAIBAiih0BAAEUAEgKqUVBFQBQAAAQVFRUFQCAoCiCACgCiHAEBURQAAARRFFAAAAABAAAAAAUSqKIAiAAACgAgoAoAAQAURQQBQBQQAEFREAFAAAACKiigCAAAAAqAKgAAAIUVAAAAABABVABFAUAAEoqKgAKACJQAAABQEUEUAxQBUQBdFTxUUH/9k=) !important;
+  background-size: cover !important; */
+  margin-top: 80px;
+
+}
+
+
+
+.bottom {
+  bottom: 5rem;
+}
+
+/* service css */
+
+.service {
+  margin-top: 70px;
+}
+
+/* faq css */
+
+.faq {
+  margin-top: 70px;
+}
+
+
+
+.box {
+  display: flex;
+}
